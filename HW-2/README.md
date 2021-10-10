@@ -7,7 +7,6 @@
 ### This is an implementation of Perciever using Keras.
 ### The cifar100 dataset was used with the Keras model.
 ### Inital data preperation is done to split train and test data. 
-### epochs =1 as each epoch would take approx 8 mins to finish and the colab gets disconnected
 ### data augmentations - normalize, resizing, flipping and zooming. 
 ### A feed forward network (FFN) used by the cross-attention module and transformer module.
 ### Patch implementation as well to extract data from the images we pass to the perceiver model.
