@@ -11,7 +11,7 @@
 ### A feed forward network (FFN) used by the cross-attention module and transformer module.
 ### Patch implementation as well to extract data from the images we pass to the perceiver model.
 ### Finally the perceiver model aggregates the modules and patches in addition to a couple layers and is executed.
-### The accuracy starts of similar to the authors execution output (5%, authors had 3%). However due to limited resources we stopped after the first epoch.
+### The accuracy starts of similar to the authors execution output. However due to limited resources we stopped after the 10th epoch.
 
 ## Part b
 ### Using perceiver io for optical flow
